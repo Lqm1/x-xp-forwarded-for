@@ -1,6 +1,6 @@
 {
   "name": "@lami/x-xp-forwarded-for",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "exports": "./mod.ts",
   "tasks": {
     "dev": "deno test --watch"
