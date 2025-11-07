@@ -16,17 +16,17 @@ await build({
   },
   package: {
     // package.json properties
-    name: "x-client-transaction-id",
+    name: "x-xp-forwarded-for",
     version: Deno.args[0],
     description:
-      "Client Transaction ID generator library for X (formerly Twitter) API requests",
+      "X-XP-Forwarded-For header encryption and decryption library using AES-GCM",
     license: "MIT",
     repository: {
       type: "git",
-      url: "git+https://github.com/Lqm1/x-client-transaction-id.git",
+      url: "git+https://github.com/Lqm1/x-xp-forwarded-for.git",
     },
     bugs: {
-      url: "https://github.com/Lqm1/x-client-transaction-id/issues",
+      url: "https://github.com/Lqm1/x-xp-forwarded-for/issues",
     },
   },
   postBuild() {
